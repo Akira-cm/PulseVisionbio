@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"> <!--Créditos: PulseVision -discord.gg/pulsevision -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="css/aos.css" rel="stylesheet">
+    <script src="js/aos.js"></script>
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/snowfall.jquery.js"></script>
+
+    <script src="js/script.js" defer=""></script>
+    <title>・ PulseVision</title>
+</head>
+
+<body>
+
+    <!-- Nome e Logo -->
+
+    <div id="notification" class="hidden">Copiado!</div>
+
+    <div class="primeiroContainer">
+        <div class="cardPai">
+            <img class="logo" src="images/logo.gif" alt="logo">
+            <!--se for um gif, altere para "logo.gif", se for jpg, "logo.jpg, voce pode alterar o nome pra qual voce quiser, mas tem que ter o nome mudado aq tb."-->
+            <h1>PulseVision</h1>
+            <p id="machine-text"></p>
+            <img class="logoDc" onclick="copyToClipboard('https://discord.gg/FEFb6xHqrR')" src="images/iconeDiscord.png"
+                alt="discordIcon">
+            <!--Pode ser alterado para um hyperlink que te leva pra um site ou servidor (https://www.w3schools.com/html/html_links.asp)-->
+        </div>
+    </div>
+
+    <!-- Sobre mim -->
+
+    <div class="segundoContainer">
+        <div data-aos="fade-up" data-aos-duration="1000" class="sobreContainer">
+            <h2>SOBRE</h2>
+            <div class="borda">
+            </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="1000" class="containerSobreCard">
+            <div class="cardSobrePai">
+                <div class="containerLogo">
+                    <img class="logosobremim" src="images/logosobremim.gif" alt="logo2">
+                </div>
+
+                <div class="containerInfosPai">
+                    <div class="containerNomeInfos">
+                        <h2>Secrethub</h2>
+                    </div>
+
+                    <div class="containerInfos">
+
+                        <div class="containerTexts">
+                            <img src="images/laptop.png" alt="Carregando...">
+                            <p>PulseVision no topo</p>
+                            <!--aqui voce pode colocar que voce é dev de n sei oq.. exemplo: Desenvolvedor em JavaScript e Python-->
+                        </div>
+                        <div class="containerTexts">
+                            <img src="images/carteira.png" alt="Carregando...">
+                            <p>Faturando alguns dígitos</p>
+                        </div>
+                        <div class="containerTexts">
+                            <img src="images/cora%C3%A7%C3%A3o.png" alt="Carregando...">
+                            <p>"Eu quero é goza..."</p>
+                            <!--aqui voce pode colocar alguma frase de efeito foda do pensador.com-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Serviços -->
+
+    <div class="off">
+
+        <div class="terceiroContainer">
+            <div data-aos="fade-down" data-aos-duration="1000" class="servicosTitulo">
+                <h2>SERVIÇOS</h2>
+                <div class="borda2"></div>
+            </div>
+
+            <div class="containerCards">
+
+                <!-- GRUPOS (Serviço 01) -->
+
+                <div data-aos="fade-down" data-aos-duration="1000" class="cards">
+                    <div class="containerIconeCard">
+                        <img src="images/placa.png" alt="Carregando...">
+                    </div>
+
+                    <div class="tituloContainerCards">
+                        <h2>Grupos</h2>
+                        <p>A partir de <span class="precos">R$ 21,99</span></p>
+                    </div>
+                    <div class="servicosContainer">
+                        <ul>
+                            <li>Membros reais</li>
+                            <li>Servidores ativos</li>
+                            <li>Membros lucrativos</li>
+                            <li>Suporte 24/7</li>
+                        </ul>
+                    </div>
+                    <div class="containerButton">
+                        <button onclick="copyToClipboard('https://discord.gg/FEFb6xHqrR')">Saiba Mais</button>
+                        <!--Pode ser alterado para um hyperlink que te leva pra um site ou servidor (https://www.w3schools.com/html/html_links.asp)-->
+                    </div>
+                </div>
+
+                <!-- GRUPOS (Serviço 02) -->
+
+                <div data-aos="fade-down" data-aos-duration="1000" class="cards">
+                    <div class="containerIconeCard">
+                        <img src="images/placa.png" alt="Carregando...">
+                    </div>
+
+                    <div class="tituloContainerCards">
+                        <h2>Contas</h2>
+                        <p>A partir de <span class="precos">R$ 8,99</span></p>
+                    </div>
+                    <div class="servicosContainer">
+                        <ul>
+                            <li>Acesso ao e-mail de criação</li>
+                            <li>Totalmente FA ( Full Acess )</li>
+                            <li>Conta limpa</li>
+                            <li>Suporte 24/7</li>
+                        </ul>
+                    </div>
+                    <div class="containerButton">
+                        <button onclick="copyToClipboard('https://discord.gg/FEFb6xHqrR')">Saiba Mais</button>
+                        <!--Pode ser alterado para um hyperlink que te leva pra um site ou servidor (https://www.w3schools.com/html/html_links.asp)-->
+                    </div>
+                </div>
+
+                <!-- Sites (Serviço 03) -->
+
+                <div data-aos="fade-down" data-aos-duration="1000" class="cards">
+                    <div class="containerIconeCard">
+                        <img src="images/pack.png" alt="Carregando...">
+                    </div>
+                    <div class="tituloContainerCards">
+                        <h2>Sites</h2>
+                        <p>A partir de <span class="precos">R$ 30,99</span></p>
+                    </div>
+                    <div class="servicosContainer">
+                        <ul>
+                            <li>100% personalizavel</li>
+                            <li>Entrega rápida</li>
+                            <li>Código com comentarios</li>
+                            <li>Suporte 24/7</li>
+                        </ul>
+                    </div>
+                    <div class="containerButton">
+                        <button onclick="copyToClipboard('https://discord.gg/FEFb6xHqrR')">Saiba Mais</button>
+                        <!--Pode ser alterado para um hyperlink que te leva pra um site ou servidor (https://www.w3schools.com/html/html_links.asp)-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer com div, fds -->
+
+    <div class="containerDireitos">
+        <p>© PulseVision. Todos os direitos reservados.</p>
+    </div>
+
+
+
+</body>
+
+</html>
